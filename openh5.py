@@ -11,7 +11,7 @@ mp_drawing = mp.solutions.drawing_utils  # Drawing utilities
 sequence = []
 sentence = []
 threshold = 0.8
-actions = np.array(['我的', '身體', '不', '舒服', '頭', '痛'])
+actions = np.array(['我的', '身體', '不太', '舒服', '頭', '痛'])
 
 # 设置字体文件的路径
 font_path = 'new.ttf'  # 替换成你的TrueType字体文件的路径
